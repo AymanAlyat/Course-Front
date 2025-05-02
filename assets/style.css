@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.navLogo{
+    width: 5rem;
+    height: 3rem;
+}
+.navClass{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   padding: 0.5rem 0;
+  
+}
+.navUl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 2rem;
+}
