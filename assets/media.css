@@ -3,13 +3,33 @@
         position: relative;
     }
     .navUl{ 
-
+          
+        background-color: #ffffff71;
         flex-direction: column;
         position: absolute;
         top: 4rem;
-        width: 100%;
-        backdrop-filter: #FFFFFF;
-        
+       width: 100%;
+        backdrop-filter: blur(8px);
+        display:none;
+       
     }
-    
+    #menuCheck:checked ~.navUl{
+        display: inherit;
+    }
+    #menuCheck:checked ~ label .open{
+        display: none;
+    }
+    #menuCheck:checked ~ label .close{
+        display: inherit;
+    }
+    .close{
+        display: none;
+    }
+     label.open{
+        display: inherit;
+    }
+     label {
+        display: inherit;
+    }
+  
 }

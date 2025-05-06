@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
   }
+  :root{
+    --primary-color :rgb(29, 164,164);
+  }
 .navLogo{
     width: 5rem;
     height: 3rem;
@@ -12,6 +15,7 @@
     justify-content: space-around;
     align-items: center;
    padding: 0.5rem 0;
+
   
 }
 .navUl{
@@ -20,4 +24,15 @@
     align-items: center;
     list-style: none;
     gap: 2rem;
+    
 }
+nav{
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 0 3px var(--primary-color);
+}
+input , label {
+    display: none;
+}
+
+
