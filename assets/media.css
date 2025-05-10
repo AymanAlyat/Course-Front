@@ -47,5 +47,15 @@
     width: 100%;
   }
   /*////////////////////////////////////fisrt secion main**************************/
-
+  .boxes{
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom:20px;
+  }
+  .box{
+    width: 100%;
+  }
+   /*//////////////////////////////////////Second section main///////////////////////*/
+   
 }
+
