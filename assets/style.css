@@ -149,6 +149,7 @@ header{
   padding: 5px;
     white-space: nowrap;/*رعشان امنع الكسرر*/
 
+
  }
  .line-through{
   text-decoration: line-through;
@@ -175,8 +176,26 @@ header{
     align-items: center;
     flex-direction: row;
     overflow-x: scroll;
+      padding-top: 10px;
+  scrollbar-width: thin;
+  scrollbar-color: var(--primary-color) #fbf8f8 ;
+  
+      
   }
   .card:last-of-type{
     margin-right: 20px;
+    
   }
-  
+  .card:hover{
+    box-shadow: 2px 2px 2px var(--primary-color),
+    -2px -2px 2px var(--primary-color);
+  }
+  .container-sec3{
+    width: 95%;/* عشان يبين انه مخفي الكرت لما يطلع بره او زي Z-index*/
+    margin: auto;
+  }
+
+
+
+
+
