@@ -3,6 +3,12 @@
     padding: 0;
     box-sizing: border-box;
   }
+  html {
+  scroll-behavior: smooth;/*عشان السكروول مش مره وحده ينزل*/
+ scrollbar-color: var(--primary-color) #f0f0f0; /* بوخذ لونين لون للباك جراوند تاعة السكرول ولون للسكرول نفسه*/
+  /*scrollbar-width: thin;*/
+}
+
   .flex{
     display: flex;
     justify-content: center;
