@@ -3,6 +3,10 @@
         position: fixed;
         
     }
+    :root{
+    --primary-color :rgb(29, 164,164);
+   
+  }
     .navUl{ 
           
         background-color: #ffffff71;
@@ -14,6 +18,9 @@
         display:none;
        
     }
+   .close{
+    color: var(--primary-color);
+  }
     #menuCheck:checked ~.navUl{
         display: inherit;
     }
