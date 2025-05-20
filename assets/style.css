@@ -310,3 +310,22 @@ header{
   text-align: center;
   font-size: 2em;
 }
+/*
+.banner{
+  margin-bottom: 30px;
+  position: absolute;
+
+}
+.btn11{
+ position: relative;
+ 
+}*/
+.btnImg{ /* الفكره كانت احط الصوره والكبسه ب كونتينر واعمل ابسوليوت مع الكبسه واحركها بالنسبه عشان تضل رسبونسف*/
+  position: relative;
+  margin-bottom: 50px;
+}
+.btn11{
+  position: absolute;
+  top: 67%;
+  left: 7%;
+}
