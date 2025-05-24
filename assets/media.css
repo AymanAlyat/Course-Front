@@ -60,7 +60,8 @@
     margin-bottom:20px;
   }
   .box{
-    width: 100%;
+   /* width: 100%;*/
+   width: 80%;
   }
    /*//////////////////////////////////////Second section main///////////////////////*/
   .section-2{
